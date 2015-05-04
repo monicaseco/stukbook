@@ -3,9 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
 .alert {
 	position: absolute;
 	z-index: 1;
 	width: 200px;
+}
+
+.front-title {
+	margin-top: 100px;
+}
+
+.landing { 
+  background: image-url("stukbook_bg_home.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
