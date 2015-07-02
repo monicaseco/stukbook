@@ -181,3 +181,25 @@
             right: auto;
         }
 }
+
+//CAROUSEL
+
+.carousel-inner > .item {
+
+  height: 350px;
+
+  background-size: cover;
+
+  width: 100%;
+
+}
+
+.carousel-inner > .item > img {
+
+  height: 100%;
+
+  min-width: 100%;
+
+  width: auto;
+
+}

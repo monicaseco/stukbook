@@ -36,7 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'bootstrap-sass'
 
 gem 'simple_form'
 
@@ -48,7 +48,7 @@ gem 'public_activity'
 
 gem 'auto_html'
 
-gem 'font-awesome-rails'
+gem 'font-awesome-sass'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
